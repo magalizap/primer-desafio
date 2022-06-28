@@ -22,16 +22,16 @@ while (repetir){
     if (acertijo == "monica y joey" ){
         repetir = false 
         alert ("Felicidades! Eres un verdadero fan de FRIENDS.")
-    }else if(acertijo == "joey y monica"){
-        repetir = false 
-        alert ("Felicidades! Eres un verdadero fan de FRIENDS.")
     }else{
         repetir = true
         alert ("Mmm..Intenta otra vez")
     }
-
 }
 
 
 
+
+/*else if(acertijo == "joey y monica"){
+        repetir = false 
+        alert ("Felicidades! Eres un verdadero fan de FRIENDS.")*/
 
