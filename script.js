@@ -16,10 +16,13 @@ let repetir = true;
 
 while (repetir){
 
-    let acertijo1 = prompt("En la serie  FRIENDS, ¿Qué personajes se ponen un pavo en la cabeza?").toLowerCase()
+    let acertijo = prompt("En la serie  FRIENDS, ¿Qué personajes se ponen un pavo en la cabeza?").toLowerCase()
  
 
-    if (acertijo1 == "monica y joey"){
+    if (acertijo == "monica y joey" ){
+        repetir = false 
+        alert ("Excelente! Eres un verdadero fan de FRIENDS.")
+    }else if(acertijo == "joey y monica"){
         repetir = false 
         alert ("Excelente! Eres un verdadero fan de FRIENDS.")
     }else{
